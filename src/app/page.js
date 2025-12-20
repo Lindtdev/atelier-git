@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 
 export default function Home() {
-  const text = "Welcome in Pink October 2025";
+  const text = "Welcome to .Net conf 2025";
   const [displayText, setDisplayText] = useState("");
   const [index, setIndex] = useState(0);
   const [deleting, setDeleting] = useState(false);
@@ -41,7 +41,7 @@ export default function Home() {
       {/* Section principale */}
       <main className="flex flex-col items-center justify-center flex-1 text-center px-4">
         <h1 className="flex items-center justify-center gap-2 text-4xl font-bold text-white bg-black px-4 py-2 rounded-xl">
-          Hello, Dev_Girls linda 🌸
+          Hello, guys 🌸
            <span className="wave text-4xl">🖐️</span>
         </h1>
 
